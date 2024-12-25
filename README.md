@@ -79,15 +79,15 @@ Spacewink utilizes **advanced technologies** to create a digital universe that i
 
 ## 🚀 **Roadmap**
 
-### **Phase 1: Foundation (2024)**
+### **Phase 1: Foundation **
 - **Launch of ATHS Token** and core blockchain features.
 - **Initial DeFi tools**, **NFT marketplace**, and secure **transactions**.
 
-### **Phase 2: Expansion (2025)**
+### **Phase 2: Expansion **
 - Integration of **AI-driven NPCs** and **cross-chain interoperability**.
 - Launch of **Cognitive NPCs**, **AI-based financial tools**, and **interplanetary commerce**.
 
-### **Phase 3: Interplanetary Economy (2026)**
+### **Phase 3: Interplanetary Economy **
 - Expansion into **Mars-based economies** and **interplanetary trade**.
 - **Cognitive consciousness** in NPCs, creating **digital immortality** for users.
 
