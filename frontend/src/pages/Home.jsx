@@ -1,39 +1,28 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Card from '../components/Card';
 import './Home.css';
 
 function Home() {
-    return (
-        <div className="home-container">
-            <header className="home-header">
-                <h1>Welcome to Spacewink Metaverse</h1>
-                <p>The next-generation ecosystem for exploration, innovation, and connection.</p>
-                <div className="cta-buttons">
-                    <Link to="/dashboard" className="cta-button">
-                        Go to Dashboard
-                    </Link>
-                    <Link to="/profile" className="cta-button">
-                        View Profile
-                    </Link>
-                </div>
-            </header>
+    const features = [
+        { title: 'Metaverse Ecosystem', description: 'Explore the virtual world built for the future.' },
+        { title: 'Blockchain Integration', description: 'Secure and transparent transactions with Athanis.' },
+        { title: 'Interstellar Connectivity', description: 'Connect beyond Earth with innovative solutions.' }
+    ];
 
-            <section className="features-section">
-                <h2>Explore Our Features</h2>
-                <div className="features-grid">
-                    <Card
-                        title="Virtual Land"
-                        description="Own and trade virtual properties in the Spacewink Metaverse."
-                    />
-                    <Card
-                        title="Blockchain Integration"
-                        description="Secure and transparent transactions with our Athanis token."
-                    />
-                    <Card
-                        title="Immersive Experiences"
-                        description="Engage with cutting-edge virtual reality experiences."
-                    />
+    return (
+        <div className="home">
+            <section className="hero">
+                <h1>Welcome to Spacewink Metaverse</h1>
+                <p>Your gateway to the future of virtual reality and blockchain technology.</p>
+                <button className="cta-button">Join Now</button>
+            </section>
+
+            <section className="features">
+                <h2>Features</h2>
+                <div className="feature-list">
+                    {features.map((feature, index) => (
+                        <Card key={index} title={feature.title} description={feature.description} />
+                    ))}
                 </div>
             </section>
         </div>
