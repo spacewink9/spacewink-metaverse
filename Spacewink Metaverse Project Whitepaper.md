@@ -1,11 +1,10 @@
 # Spacewink Metaverse Whitepaper 🌌
-
-**Tagline:** *"Solving Earth's Challenges Through Immortality, Universal Expansion, and Metaverse Collaboration."*
+ *"Solving Earth's Challenges Through Immortality, Universal Expansion, and Metaverse Collaboration."*
 
 ---
 
 <details>
-<summary>## Table of Contents (Click to Expand)</summary>
+<summary>Table of Contents (Click to Expand)</summary>
 
 1. [Introduction](#introduction)  
 2. [Vision and Mission](#vision-and-mission)  
