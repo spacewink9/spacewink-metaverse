@@ -1,0 +1,22 @@
+.profile {
+    padding: 20px;
+    text-align: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+.save-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
